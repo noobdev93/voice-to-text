@@ -1,0 +1,12 @@
+# Essential dependencies for Voice-to-Text app
+pynput>=1.7.6              # Global hotkey detection and text injection
+pyaudio>=0.2.11            # Audio recording
+numpy>=1.21.0              # Audio data processing
+SpeechRecognition>=3.14.0  # Speech-to-text conversion
+pyperclip>=1.8.2           # Clipboard operations
+
+# Audio processing
+webrtcvad>=2.0.10          # Voice activity detection
+
+# System integration
+psutil>=5.9.0              # System utilities

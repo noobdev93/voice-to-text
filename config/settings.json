@@ -1,0 +1,15 @@
+{
+  "hotkey": {
+    "combination": "f13",
+    "hold_to_record": true,
+    "toggle_mode": false
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "channels": 1
+  },
+  "system": {
+    "paste_mode": true,
+    "typing_speed": 0
+  }
+}

@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+venv_voxtral/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Audio Recordings (temporary files)
+recordings/*.wav
+recordings/*.mp3
+recordings/*.flac
+!recordings/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Model files (if any large models are downloaded)
+models/*.bin
+models/*.safetensors
+models/*.pt
+models/*.pth
+!models/.gitkeep
+
+# Test files
+test_*.py
+*_test.py
+*_old.py
+*_backup.py
+*_with_animation.py
+
+# Development/experimental versions (keep locally, don't commit)
+voxtral_voice_to_text.py
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
